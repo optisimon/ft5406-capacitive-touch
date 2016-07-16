@@ -14,7 +14,9 @@ by your Raspberry Pi), this repository is not for you.
 If you want to talk to the touch controller from userspace
 (or from another platform), this repository might be for you.
 
- - One script allow you to capture capacitance images using the touch screen
+ - One application reading and displaying capacitance images live with a decent refresh rate
+
+ - One script allow you to capture single capacitance images using the touch screen
 
  - Another script allow you to use the screen as a touch screen completely from
 userspace.
