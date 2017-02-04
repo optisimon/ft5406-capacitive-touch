@@ -128,7 +128,7 @@ while true ; do
   fi
 
   if [ "${NUM_TOUCHES}" == "1" ] ; then
-    STR=$(i2cdump -y -r 3-6 1 0x38 bc \
+    STR=$(i2cdump -y -r 3-6 ${I2C_BUS} ${I2C_ADDR} bc \
       | tail -n 1 \
       | sed -e 's/00: *//') || {
         echo "ERROR-3"
