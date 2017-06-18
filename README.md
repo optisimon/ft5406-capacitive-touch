@@ -1,3 +1,7 @@
+# WARNING: The hardware for the raspberry pi touch screens have been updated sometime during 2017, and they are no longer always using the FT5406 chip. This means that a newly bought screen won't be likely to work with this codebase.
+
+BTW: I've managed to locate one of those incompatible screens, and will start trying to get raw measurements out from it in the middle of july 2017.
+
 # raspberry_pi_ft5406_capacitive_touch
 
 Raspberry Pi 7 inch touchscreen controller display hacking (with Raspberry Pi 3 as host)
